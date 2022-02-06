@@ -4,7 +4,7 @@ The team aims to meet on Wednesday's at 5PM each week in order to review the pro
 
 This way there is communication between teammembers at least once a week and a review of the team's work near the end of the sprint. 
 
-The team uses Trello for project management and organization of tasks.
+The team uses Trello for project management and organization of tasks. During sprint 2 we successfully used this application to assign tasks for each group member and moved items to the completed list when they were done.
 
 ### Plans for CI/CD
 
