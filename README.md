@@ -11,7 +11,10 @@ Yasir Tahir (email: yasirtahir@lewisu.edu)(https://github.com/YasirTahir-Lewis)
 
 
 ### Process
-Find the process file [here](PROCESS.md)
+Find the process and CI/CD configuration file [here](PROCESS.md)
 
 ### Team
 Find team information [here](TEAM.md)
+
+### Minimum Viable Product
+Find MVP proposal [here](MVP.md)
