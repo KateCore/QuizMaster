@@ -31,16 +31,6 @@ a:visited {
     padding-top:10px
 }
 
-/*To be filled with style for actual navigation bar. Floated left to keep on left side of page.*/
-#navBarHolder {
-    background-color: #C2EDCE;
-    float:left;
-    width:20%;
-    min-height:300px;
-    height:auto;
-    
-}
-
 /*Main content Sytling.
     Floated left to appear next to the nav bar.
 */
@@ -71,6 +61,72 @@ p.footer {
     
 
 }
+
+/*Menu bar styles*/
+.main-menu{
+    background-color: #388087;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 20px #BADFE7;
+
+    width: 65px;
+    height: 100vh;
+
+    position: fixed;
+    top:0;
+    left:0;
+    
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+    transition: .3s ease;
+}
+
+.main-menu:hover{
+    width : 250px;
+    overflow-y: scroll;
+}
+
+.main-menu .menu-item{
+    background-color: #388087;
+    padding: 10px;
+}
+.main-menu .menu-item:hover{
+    background-color: #BADFE7;
+    cursor: pointer;
+}
+
+.main-menu .menu-item .fa{
+    color: #BADFE7;
+    width:40px;
+    font-size: 25px;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+.main-menu .menu-item:hover > .fa{
+    color: #388087;
+}
+
+section.home{
+    background-color: #f3f3f3;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent !important;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #BADFE7;
+    border-radius: 10px;
+  }
+
+/*End of menu bar*/
 
 
 
