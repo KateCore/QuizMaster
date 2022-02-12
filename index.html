@@ -1,20 +1,59 @@
+<!--last updated 2/011/2022-->
+<!--Current layout is based on floating style framework.-->
 <!DOCTYPE html>
-<!--last updated 2/05/2022-->
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta charset="utf-8" />
     <title>QuizMasterHome</title>
 
-
-
+    <link rel="stylesheet" href="indexStyleSheet.css" /> 
 </head>
 
 <body>
-    <h1>Welcome to Quiz Master</h1>
-    <h2>This site is still in development</h2>
+    <div id="wrapper">
+        <!--siteHeading div controls the title of the webpage.-->
+        <div id="siteHeading">
+            <h1>Quiz Master</h1>
+            <h2>This site is still in develpment</h2>
+        </div>
 
+        <!--The menu bar and the main content of the page are stored in a container div.
+            This helps ensure a column style layout.-->
+        <div id="pageElements">
 
+            <!--Menu bar to go in this space. Currently filled with nonsense for viewing purposes.-->
+            <div id="navBarHolder">
+                Sample space
+                sample
+                <br />a
+                <br />a
+                <br />a
+                <br />a
+            </div>
+
+            <!--Main content of homepage goes here.-->
+            <div id="siteDescription">
+                <p>
+                    Welcome to Quiz Master!
+                    Currently, this site is still being developed but keep an eye out for future updates.
+                    Current plans include adding a menu bar and more css.
+
+                </p>
+            </div>
+        </div>
+
+        <!--Fill in with copyright info and maybe a few link
+            TODO: examine how to push toward bottom of page or make menu section bigger.-->
+        <div class="footer">
+            <p class="footer">
+                Insert site info and copyright legalese here.
+                <a href="https://nice-moss-068cf9610.1.azurestaticapps.net/">Home</a>
+            </p>            
+            
+        </div>
+
+    </div>
 </body>
 
 </html>

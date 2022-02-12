@@ -1,0 +1,58 @@
+﻿/*Last edited 02/11/2022*/
+/*Examine need for style. Was used for float tutorial*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    background-color: #F6F6F2;
+}
+
+/*Title style*/
+#siteHeading {
+    background-color: #388087;
+    text-align:left;
+}
+
+/*To be filled with style for actual navigation bar. Floated left to keep on left side of page.*/
+#navBarHolder {
+    background-color: #C2EDCE;
+    float:left;
+    width:20%;
+    
+}
+
+/*Main content Sytling.
+    Floated left to appear next to the nav bar.
+*/
+#siteDescription {
+    background-color: #F6F6F2;
+    float: left;
+    width: 80%;
+    text-align: center;
+    color: #388087;
+}
+
+/*Cleared of all floats to cover bottom portion of screen. Block display allows link and text on one line.*/
+.footer {
+    background-color: #388087;
+    text-align:center;
+    clear: both;
+    display:block;
+    height:30px;
+    overflow:hidden;
+}
+
+/*Fix at later date*/
+p.footer {
+    vertical-align:text-top;
+    display:inline-block;
+
+    
+
+}
+
+
+
