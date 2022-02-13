@@ -19,8 +19,9 @@ a:hover {
     color: #C2EDCE
 }
 
-a:visited {
-    color: #BADFE7
+a {
+    text-decoration:none;
+    color: #F6F6F2
 }
 
 /*Title style
@@ -72,7 +73,9 @@ p.footer {
 .main-menu{
     background-color: #6FB3B8;
     /*border-top-right-radius: 10px*/
-    border-bottom-right-radius: 10px;
+    /*border-bottom-right-radius: 10px; Commented out to take rounding off menu bar. Leaves no whitespace
+        where header meets menu bar.
+    */
     box-shadow: 0px 0px 20px #BADFE7;
 
     width: 65px;
