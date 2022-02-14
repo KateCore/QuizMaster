@@ -6,6 +6,8 @@
     <title>Contact Us</title>
 
     <link rel="stylesheet" href="indexStyleSheet.css" />
+    <!--cloudflare.com will contain the available classes for various icons needed for the menu bar.-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -19,18 +21,33 @@
         <!--The menu bar and the main content of the page are stored in a container div.
             This helps ensure a column style layout.-->
         <div id="pageElements">
+            <!--Menu bar to go in this space.-->
+            <div class="main-menu">
+                <ul>
+                    <!--home contains the menu item selections for the main part of the menu-->
+                    <!--Use link below for icon class names to find a fitting icon.-->
+                    <!--https://www.fontawesomecheatsheet.com/font-awesome-cheatsheet-4x/-->
+                    <section class="home">
+                        <li class="menu-item"><i class="fa fa-home"></i>Home</li>
+                        <li class="menu-item"><i class="fa fa-bell"></i>Notifications</li>
+                        <li class="menu-item"><i class="fa fa-paper-plane"></i>Messages</li>
+                    </section>
 
-            <!--Menu bar to go in this space. Currently filled with nonsense for viewing purposes.-->
-            <div id="navBarHolder">
-                Sample space
-                sample
-                
-
-
-
-
-
-
+                    <!--menu options contains the options for the menu (below the home section part of the menu)-->
+                    <section class="menu-options">
+                        <li class="menu-item"><i class="fa fa-gamepad"></i>Gaming</li>
+                        <li class="menu-item"><i class="fa fa-code"></i>Programming</li>
+                        <li class="menu-item"><i class="fa fa-motorcycle"></i>Travel</li>
+                        <li class="menu-item"><i class="fa fa-gears"></i>Technology</li>
+                        <li class="menu-item"><i class="fa fa-hashtag"></i>Mathematics</li>
+                        <li class="menu-item"><i class="fa fa-wrench"></i>Physics</li>
+                        <li class="menu-item"><i class="fa fa-globe"></i>Web Development</li>
+                        <li class="menu-item"><i class="fa fa-android"></i>Android Development</li>
+                        <li class="menu-item"><i class="fa fa-facebook"></i>Facebook</li>
+                        <li class="menu-item"><i class="fa fa-twitter"></i>Twitter</li>
+                        <li class="menu-item"><i class="fa fa-github"></i>Github</li>
+                    </section>
+                </ul>
             </div>
 
             <!--Main content of homepage goes here.-->

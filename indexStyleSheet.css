@@ -63,6 +63,8 @@ p.footer {
 }
 
 /*Menu bar styles*/
+
+/* the container for the main menu properties.  */
 .main-menu{
     background-color: #6FB3B8;
     border-top-right-radius: 10px;
@@ -83,34 +85,41 @@ p.footer {
     transition: .3s ease;
 }
 
+/* When hovering over main menu, expand the width to display menu options. */
 .main-menu:hover{
     width : 250px;
     overflow-y: scroll;
 }
 
+/* Properties for the home menu item section. */
 .main-menu .home .menu-item{
     background-color: #388087;
     color:#F6F6F2;
 }
 
+/* Properties for the menu items. */
 .main-menu .menu-item{
     background-color: #6FB3B8;
     padding: 10px;
 }
 
+/* when hovering over home menu items. */
 .main-menu .home .menu-item:hover{
     color:black;
 }
 
+/* Properties for menu items during hovering. */
 .main-menu .menu-item:hover{
     background-color: #BADFE7;
     cursor: pointer;
 }
 
+/* Properties when hovered over menu items inside fa class. */
 .main-menu .menu-item:hover > .fa{
     color:#388087;
 }
 
+/* Properties for the fa class */
 .main-menu .menu-item .fa{
     color: #BADFE7;
     width:40px;
@@ -119,14 +128,17 @@ p.footer {
     margin-right: 30px;
 }
 
+/* Scroll bar */
 ::-webkit-scrollbar {
     width: 5px;
   }
 
-  ::-webkit-scrollbar-track {
+/* Progress bar */
+::-webkit-scrollbar-track {
     background: transparent !important;
   }
   
+/* Draggable scrolling handle */
   ::-webkit-scrollbar-thumb {
     background: #BADFE7;
     border-radius: 10px;
