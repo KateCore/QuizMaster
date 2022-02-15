@@ -6,10 +6,15 @@
     <title>Contact Us</title>
 
     <link rel="stylesheet" href="indexStyleSheet.css" />
-    <!--cloudflare.com will contain the available classes for various icons needed for the menu bar.-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--jQuery source file-->
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+    <!--JavaScript project file-->
+    <script src = "script.js"></script>
 </head>
-
 <body>
     <div id="wrapper">
         <!--siteHeading div controls the title of the webpage.-->
@@ -22,28 +27,8 @@
             This helps ensure a column style layout.-->
         <div id="pageElements">
             <!--Menu bar to go in this space.-->
-            <div class="main-menu">
-                <ul>
-                    <!--home contains the menu item selections for the main part of the menu-->
-                    <!--Repository menu bar credit https://github.com/mithu2649/YT-tutorials/tree/master/Sliding%20Navbar-->
-                    <!--Use link below for icon class names to find a fitting icon.-->
-                    <!--https://www.fontawesomecheatsheet.com/font-awesome-cheatsheet-4x/-->
-                    <section class="home">
-                        <li class="menu-item"><i class="fa fa-home"></i><a href="https://nice-moss-068cf9610.1.azurestaticapps.net/">Home</a></li>
-                        <li class="menu-item"><i class="fa fa-bell"></i>Notifications</li>
-                        <li class="menu-item"><i class="fa fa-comment-o"></i><a href="contactUs.html">Contact Us</a></li>
-                    </section>
-
-                    <!--menu options contains the options for the menu (below the home section part of the menu)-->
-                    <section class="menu-options">
-                        <li class="menu-item"><i class="fa fa-gamepad"></i>Gaming</li>
-                        <li class="menu-item"><i class="fa fa-code"></i>Programming</li>
-                        <li class="menu-item"><i class="fa fa-motorcycle"></i>Travel</li>
-                        <li class="menu-item"><i class="fa fa-gears"></i>Technology</li>
-                        <li class="menu-item"><i class="fa fa-github"></i>Github</li>
-                    </section>
-                </ul>
-            </div>
+            <!--id main-menu is referenced by jquery to load the menu bar.-->
+            <div id="main-menu"></div>
 
             <!--Main content of homepage goes here.-->
             <div id="siteDescription">
