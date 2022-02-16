@@ -1,58 +1,80 @@
 ﻿/*Last edited 02/11/2022*/
+
+
 /*Examine need for style. Was used for float tutorial*/
+
 * {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
 }
 
 body {
     background-color: #F6F6F2;
+    height: 100%;
 }
 
-/*Title style*/
+#pageElements {
+    height: inherit
+}
+
+a:hover {
+    color: #C2EDCE
+}
+
+a {
+    text-decoration: none;
+    color: #F6F6F2
+}
+
+
+/*Title style
+    margin adjusted to account for nav bar.
+*/
+
 #siteHeading {
     background-color: #388087;
-    text-align:left;
+    text-align: center;
+    padding-bottom: inherit;
+    padding-top: 10px;
+    margin-left: 65px;
 }
 
-/*To be filled with style for actual navigation bar. Floated left to keep on left side of page.*/
-#navBarHolder {
-    background-color: #C2EDCE;
-    float:left;
-    width:20%;
-    
-}
 
-/*Main content Sytling.
-    Floated left to appear next to the nav bar.
+/*Main content styling.
+    Now floated right for menu bar.
 */
+
 #siteDescription {
     background-color: #F6F6F2;
-    float: left;
-    width: 80%;
+    float: right;
+    /*Float right now to account for menu bar.*/
+    margin-left: 75px;
+    /*Adjusted to account for menu bar size.*/
     text-align: center;
     color: #388087;
+    padding: 15px 15px;
 }
 
-/*Cleared of all floats to cover bottom portion of screen. Block display allows link and text on one line.*/
+
+/*Cleared of all floats to cover bottom portion of screen. Block display allows link and text on one line.
+    Adjusted margin to account for menu bar.
+*/
+
 .footer {
     background-color: #388087;
-    text-align:center;
+    text-align: center;
     clear: both;
-    display:block;
-    height:30px;
-    overflow:hidden;
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    margin-left: 65px
 }
+
 
 /*Fix at later date*/
+
 p.footer {
-    vertical-align:text-top;
-    display:inline-block;
-
-    
-
+    vertical-align: text-top;
+    display: inline-block;
 }
-
-
-
