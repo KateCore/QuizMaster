@@ -1,5 +1,13 @@
 /*Menu bar styles*/
+*, body{
+    margin:0;
+    padding:0;
+}
 
+body{
+    background-color: #ebebeb;
+    font-family: 'Fira Sans', sans-serif;
+}
 
 /* the container for the main menu properties.  */
 
@@ -29,6 +37,12 @@
     overflow-y: scroll;
 }
 
+/* Removing anchor tag underline and blue color under .home class. */
+
+.home a{
+    text-decoration: none;
+    color: #F6F6F2;
+}
 
 /* Properties for the home menu item section. */
 
