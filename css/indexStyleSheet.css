@@ -69,7 +69,7 @@ a {
     height: 30px;
     overflow: hidden;
     margin-left: 65px;
-    position: absolute;
+    /*position: absolute;  I though this would make the footer stay at the bottom but it failed. fix later.*/
       
 }
 
