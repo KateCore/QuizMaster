@@ -1,20 +1,4 @@
-﻿body {
-    background-color: #D3D3D3;
-}
-
-h1 {
-    color: blue;
-    font-size: 50px;
-    font-family: Courier;
-    text-align: center;
-}
-
-h2 {
-    color: green;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
+/*only adding components specific to the body of the page. The rest of the css can imported with the index*/
 
 img {
     border: 5px solid black;
