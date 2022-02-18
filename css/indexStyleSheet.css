@@ -68,7 +68,9 @@ a {
     display: block;
     height: 30px;
     overflow: hidden;
-    margin-left: 65px
+    margin-left: 65px;
+    position: absolute;
+      
 }
 
 
