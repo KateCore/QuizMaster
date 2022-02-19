@@ -10,7 +10,7 @@ img {
 
 #teamPictures {
     margin-top: 100px;
-    margin-left: 65px;
+    margin-left: 65px; /*Moved away from menu bar*/
     margin-right: 15px;
     text-align: center;
 }
