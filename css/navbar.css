@@ -64,6 +64,7 @@ body {
     background-color: #6FB3B8;
     padding: 10px;
     font-size: 16px;
+
 }
 
 
@@ -124,6 +125,9 @@ body {
 
 /* Properties for dropdown content */
 
+.dropdown {
+    color:#F6F6F2
+}
 .dropdown-content {
     display: none;
     position: absolute;

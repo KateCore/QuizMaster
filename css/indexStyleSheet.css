@@ -61,7 +61,7 @@ a {
 #siteHeading {
     background-color: #388087;
     text-align: center;
-    padding-bottom: inherit;
+    padding-bottom: 10px;
     padding-top: 10px;
     margin-left: 65px;
 }
@@ -75,7 +75,7 @@ a {
     background-color: #F6F6F2;
     float: center;
     /*Float right now to account for menu bar.*/
-    margin-left: 75px;
+    margin-left: 65px;
     /*Adjusted to account for menu bar size.*/
     text-align: center;
     color: #388087;
