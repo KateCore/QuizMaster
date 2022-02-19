@@ -33,17 +33,24 @@ body {
 }
 
 
-    /* When hovering over main menu, expand the width to display menu options. */
+/* When hovering over main menu, expand the width to display menu options. */
 
-    .main-menu:hover {
-        width: 250px;
-        overflow-y: scroll;
-    }
+.main-menu:hover {
+    width: 250px;
+    overflow-y: scroll;
+}
 
 
 /* Removing anchor tag underline and blue color under .home class. */
 
 .home a {
+    text-decoration: none;
+    color: #F6F6F2;
+}
+
+/* Removing anchor tag underline and blue color under .home class. */
+
+.menu-options a {
     text-decoration: none;
     color: #F6F6F2;
 }
@@ -83,11 +90,11 @@ body {
 }
 
 
-    /* Properties when hovered over menu items inside fa class. */
+/* Properties when hovered over menu items inside fa class. */
 
-    .main-menu .menu-item:hover > .fa {
-        color: #388087;
-    }
+.main-menu .menu-item:hover > .fa {
+    color: #388087;
+}
 
 
 /* Properties for the fa class */
@@ -139,19 +146,19 @@ body {
     text-align:center
 }
 
-    .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
 
 
-        /* Properties when hover over dropdown content */
+/* Properties when hover over dropdown content */
 
-        .dropdown-content a:hover {
-            background-color: #ddd;
-        }
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
