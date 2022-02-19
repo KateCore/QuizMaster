@@ -1,4 +1,4 @@
-﻿/*Last edited 02/11/2022*/
+﻿/*Last edited 02/19/2022*/
 
 
 /*Examine need for style. Was used for float tutorial*/
@@ -47,7 +47,7 @@ a {
 
 #siteDescription {
     background-color: #F6F6F2;
-    float: right;
+    float: center;
     /*Float right now to account for menu bar.*/
     margin-left: 75px;
     /*Adjusted to account for menu bar size.*/
@@ -68,9 +68,11 @@ a {
     display: block;
     height: 30px;
     overflow: hidden;
-    margin-left: 65px;
-    /*position: absolute;  I though this would make the footer stay at the bottom but it failed. fix later.*/
-      
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /*position: absolute;  I though this would make the footer stay at the bottom but it failed. fix later.
+     I think I have fized the footer, let me know if still needs to be fixed. Yasir */
 }
 
 
