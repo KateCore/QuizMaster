@@ -3,7 +3,7 @@
     text-align: center;
     clear: both;
     display: block;
-    height: 30px;
+    height: 40px;
     overflow: hidden;
     position: absolute;
     bottom: 0;
@@ -18,4 +18,9 @@
 p.footer {
     vertical-align: text-top;
     display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #F6F6F2
 }
