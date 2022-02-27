@@ -7,18 +7,18 @@
 
 .courses {
     margin-left: 300px;
-    /*Moved away from menu bar*/
-    /*margin-right: 15px;*/
-    /*text-align: center;*/
+    margin-top: 40px;
     padding: 20px;
+    align-content: center;
 }
 
 .course {
-    padding: 20px;
+    padding: 100px;
+    float: left;
 }
 
 .course-content {
-    padding-left: 30px;
+    padding-left: 10px;
     text-decoration: underline;
     color: black;
 }
