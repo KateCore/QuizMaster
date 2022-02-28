@@ -24,5 +24,17 @@ p{
 	font-size: 22px;
 	
 }
-
+a{
+	padding:20px;
+}
+.row{
+	display:flex;
+	
+	
+}
+.column{
+	flex:50%;
+	padding:20px;
+	
+}
 	
