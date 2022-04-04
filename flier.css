@@ -5,9 +5,7 @@ body{
 	margin-right: 25%;
 	
 }
-div{
-	
-}
+
 h1{
 	font-size: 60px;
 	color: darkblue;
@@ -37,4 +35,21 @@ a{
 	padding:20px;
 	
 }
+ul{
+	list-style-type: disc;
+	text-align: center;
+	justify-content: center;
+  	display: inline-block;
+	  
+}
+li{
+	text-align: left;
+	font-size: 22px;
+}
 	
+.myList{
+	text-align: center;
+}
+
+
+
